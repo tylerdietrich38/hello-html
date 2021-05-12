@@ -9,29 +9,37 @@ html {
 body {
   margin: 0;
   min-height: 100%;
-  background-color: rgb(240, 236, 236);
+  background-color: rgb(240, 239, 224);
 }
 
 h1 {
-  color: lightslategrey;
-  background-color: rgb(211, 191, 250);
+  color: rgb(236, 221, 4);
   text-align: center;
+  background-image: url('download.jpg');
+  padding: 1rem;
 }
 
 h3 {
   color: blue;
   background-color: lightsalmon;
   border: 3px solid black;
+  padding: 0.2rem;
+  background-image: url('gold.jpg');
 }
 
 li {
   font-style: italic;
-  color: limegreen;
+  color: rgb(77, 75, 75);
   margin: 1rem 2rem 1rem;
-  padding: 1rem;
+  padding: 0.5rem;
   border: 1px solid black;
 }
 
 img {
   max-width: 50%;
+}
+
+p {
+  font-family: Georgia, 'Times New Roman', Times, serif;
+  color: rgb(26, 26, 26);
 }
