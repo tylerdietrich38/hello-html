@@ -10,3 +10,23 @@ body {
   margin: 0;
   min-height: 100%;
 }
+
+h1 {
+  color: lightslategrey;
+  background-color: rgb(211, 191, 250);
+  text-align: center;
+}
+
+h3 {
+  color: blue;
+  background-color: lightsalmon;
+  border: 3px solid black;
+}
+
+li {
+  font-style: italic;
+  color: limegreen;
+  margin: 1rem 2rem 1rem;
+  padding: 1rem;
+  border: 1px solid black;
+}
